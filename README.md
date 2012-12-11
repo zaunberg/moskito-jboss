@@ -11,7 +11,7 @@ Runs with:
 Getting started 
 ===============
 
-1) Git clone or download source code, config settings.xml: JBoss Nexus repository needs to be added in order to resolve Seam dependencies
+**1)** Git clone or download source code, config settings.xml: JBoss Nexus repository needs to be added in order to resolve Seam dependencies
 ```XML
 <repository>
     <id>jboss-public-repository-group</id>
@@ -21,11 +21,11 @@ Getting started
 ```
 Build project with Maven: mvn clean install -U
 
-2) Setup build.properties, use provided build.properties.template as template. This is mainly useful when starting JBoss straight from IDE.
+**2)** Setup build.properties, use provided build.properties.template as template. This is mainly useful when starting JBoss straight from IDE.
 
-3) Download JBoss AS 7: http://www.jboss.org/jbossas/downloads/
+**3)** Download JBoss AS 7: http://www.jboss.org/jbossas/downloads/
 
-4) Setup DataSource: for demo application we are using InProcess HSQL Database, define within //JBOSS_HOME/standalone/configuration/standalone.xml
+**4)** Setup DataSource: for demo application we are using InProcess HSQL Database, define within //JBOSS_HOME/standalone/configuration/standalone.xml
 ```XML
 <subsystem xmlns="urn:jboss:domain:datasources:1.0">
       <datasources>
@@ -41,11 +41,12 @@ Build project with Maven: mvn clean install -U
 </subsystem>
 ```
 
-5) Start JBoss and deploy artifact //PROJECT-HOME//moskitojboss-web/target/moskitojboss.war
+**5)** Start JBoss and deploy artifact //PROJECT-HOME//moskitojboss-web/target/moskitojboss.war
 
-6) Start application in Browser: http://localhost:8080/moskitojboss/
+**6)** Start application in Browser: http://localhost:8080/moskitojboss/
 
-7) Login with initial user or create your own
+**7)** Login with initial user or create your own
 
-8) Play around, add some tasks and check MoSKito Producers, Accumulators and Thresholds localhost:8080/moskitojboss/mui/
+**8)** Play around, add some tasks and check MoSKito Producers, Accumulators and Thresholds localhost:8080/moskitojboss/mui/
 
+**9)** Give us feedback an/or contribute in any ways.
