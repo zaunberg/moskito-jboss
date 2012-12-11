@@ -49,4 +49,4 @@ Build project with Maven: mvn clean install -U
 
 **8)** Play around, add some tasks and check MoSKito Producers, Accumulators and Thresholds localhost:8080/moskitojboss/mui/
 
-**9)** Give us feedback an/or contribute in any ways.
+**9)** Give us feedback and/or contribute in any ways. :-)
